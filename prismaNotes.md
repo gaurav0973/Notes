@@ -1,3 +1,34 @@
+## Basic Commands
+
+- Packages
+```bash
+npm i prisma
+```
+```bash
+npm install @prisma/client
+```
+```bash
+npx prisma init
+```
+
+- Docker Container
+```bash
+docker run --name leetQuest -e POSTGRES_USER=myuser -e POSTGRES_PASSWORD=mypassword -p 5432:5432 -d postgres 
+```
+```bash
+DATABASE_URL="postgresql://myuser:mypassword@localhost:5432/postgres"
+```
+
+- Terminal
+```bash
+npx prisma generate
+```
+
+
+
+
+
+
 ## Prisma Setup and configuration
 
 ```bash
